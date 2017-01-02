@@ -11,7 +11,7 @@ from pygments.lexers.php import PhpLexer
 ########################
 
 maintainer = u'Cake Software Foundation, Inc.'
-project = u'doc-theme'
+project = u'cakephp-theme'
 project_pretty_name = u'CakePHP Doc Theme'
 copyright = u'%d, CakePHP' % datetime.datetime.now().year
 version = '0.0.4'
@@ -26,19 +26,19 @@ html_context = {
     }
 }
 
-htmlhelp_basename = 'doc-theme'
+htmlhelp_basename = 'cakephp-theme'
 latex_documents = [
-    ('index', 'doc-theme.tex', u'doc-theme',
-     u'CakePHP', 'doc-theme'),
+    ('index', 'cakephp-theme.tex', u'cakephp-theme',
+     u'CakePHP', 'cakephp-theme'),
 ]
 man_pages = [
-    ('index', 'doc-theme', u'CakePHP Doc Theme Documentation',
+    ('index', 'cakephp-theme', u'CakePHP Doc Theme Documentation',
      [u'CakePHP'], 1)
 ]
 
 texinfo_documents = [
-    ('index', 'doc-theme', u'CakePHP Doc Theme Documentation',
-     u'CakePHP', 'doc-theme', 'A Sphinx theme for CakePHP doc sites',
+    ('index', 'cakephp-theme', u'CakePHP Doc Theme Documentation',
+     u'CakePHP', 'cakephp-theme', 'A Sphinx theme for CakePHP doc sites',
      'Miscellaneous'),
 ]
 
