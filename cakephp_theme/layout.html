@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
   {%- if pagename != 'search' -%}
   <div id="improve-slideout">
     <i class="fa fa-pencil icon-improve"></i>
-    <a href="https://github.com/{{ maintainer }}/{{ project }}/edit/{{ current_version }}/{{ language }}/{{ pagename }}.rst" target="_blank">
+    <a href="https://github.com/{{ github_user }}/{{ github_repo }}/edit/{{ github_version }}{{ conf_py_path }}{{ pagename }}.rst" target="_blank">
       <div id="improve-slideout-inner"><h6>Improve This Doc <i class="fa fa-github git-improve"></i></h6></div>
     </a>
   </div>
