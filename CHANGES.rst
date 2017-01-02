@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.0.14 (2017-01-02)
+-------------------
+
+Fix
+~~~
+
+- Use same github_host retrieval for view link. [Jose Diaz-Gonzalez]
+
 0.0.13 (2017-01-02)
 -------------------
 
