@@ -7,10 +7,10 @@ Contents
 
    Introduction <index>
 
-.. _installation-docs:
+.. _getting-started-docs:
 
 .. toctree::
    :maxdepth: 3
-   :caption: Preface
+   :caption: Getting Started
 
     Installation <installation>
