@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail; [[ $RELEASE_TRACE ]] && set -x
 
-PACKAGE_NAME='cakephp_theme'
+PACKAGE_NAME='cakephp-theme'
 INIT_PACKAGE_NAME='cakephp_theme'
 PUBLIC="true"
 
