@@ -37,8 +37,8 @@ man_pages = [
 ]
 
 texinfo_documents = [
-    ('index', 'crud-view', u'CakePHP Doc Theme Documentation',
-     u'CakePHP', 'crud-view', 'A Sphinx theme for CakePHP doc sites',
+    ('index', 'doc-theme', u'CakePHP Doc Theme Documentation',
+     u'CakePHP', 'doc-theme', 'A Sphinx theme for CakePHP doc sites',
      'Miscellaneous'),
 ]
 
