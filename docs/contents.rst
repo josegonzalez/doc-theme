@@ -2,11 +2,12 @@ Contents
 ########
 
 .. toctree::
-   :hidden:
+   :maxdepth: 3
+   :caption: Preface
 
-   index
+   Introduction <index>
 
-.. _preface-docs:
+.. _installation-docs:
 
 .. toctree::
    :maxdepth: 3
