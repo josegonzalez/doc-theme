@@ -1,6 +1,22 @@
 Changelog
 =========
 
+0.0.5 (2017-01-02)
+------------------
+
+Fix
+~~~
+
+- Ensure we reference the correct package name. [Jose Diaz-Gonzalez]
+
+Other
+~~~~~
+
+- Hack: reference cakephp-theme instead of doc-theme. [Jose Diaz-
+  Gonzalez]
+
+- Docs: fix version requirement. [Jose Diaz-Gonzalez]
+
 0.0.4 (2017-01-02)
 ------------------
 
