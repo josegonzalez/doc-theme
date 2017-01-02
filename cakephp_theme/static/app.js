@@ -910,7 +910,21 @@ App.InlineSearch = (function () {
       type: 'GET'
     });
     xhr.done(function (response) {
-      asyncResults(response.data);
+      var results = []
+      if (response.hasOwnProperty('results')) {
+        var res = response.results.hits.hits;
+        for (i = 0; i < res.length; i++) {
+          results.push({
+            title: res[i].fields.title[0],
+            url: res[i].fields.link,
+            contents: res[i].highlight.content,
+            html: res[i].highlight.content
+          })
+        }
+      } else {
+        results = response.data;
+      }
+      asyncResults(results);
     });
   };
 
@@ -933,7 +947,12 @@ App.InlineSearch = (function () {
               link.append('<strong>' + item.title + '</strong><br />');
             }
             var span = $('<span></span>');
-            var text = item.contents;
+            var text = [];
+            if (item.hasOwnProperty('html')) {
+              text = item.html;
+            } else {
+              text = item.contents;
+            }
             if (text.join) {
               text = text.join("\n");
             }
