@@ -1,6 +1,17 @@
 Changelog
 =========
 
+0.0.8 (2017-01-02)
+------------------
+
+- Docs: add note about when to use the theme. [Jose Diaz-Gonzalez]
+
+- Feat: clean up installation documentation. [Jose Diaz-Gonzalez]
+
+- Docs: show index as introduction. [Jose Diaz-Gonzalez]
+
+- Docs: add documentation around certain variables. [Jose Diaz-Gonzalez]
+
 0.0.7 (2017-01-02)
 ------------------
 
