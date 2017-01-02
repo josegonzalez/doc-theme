@@ -27,15 +27,23 @@ html_context = {
 }
 
 htmlhelp_basename = 'cakephp-theme'
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', 'cakephp-theme.tex', u'cakephp-theme',
      u'CakePHP', 'manual'),
 ]
+# One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'cakephp-theme', u'CakePHP Doc Theme Documentation',
      [u'CakePHP'], 1)
 ]
 
+# Grouping the document tree into Texinfo files. List of tuples
+# (source start file, target name, title, author,
+#  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'cakephp-theme', u'CakePHP Doc Theme Documentation',
      u'CakePHP', 'cakephp-theme', 'A Sphinx theme for CakePHP doc sites',
