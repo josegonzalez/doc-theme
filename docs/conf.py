@@ -10,8 +10,8 @@ from pygments.lexers.php import PhpLexer
 # Begin Customizations #
 ########################
 
-maintainer = u'Cake Software Foundation, Inc.'
-project = u'cakephp-theme'
+maintainer = u'cakephp'
+project = u'doc-theme'
 project_pretty_name = u'CakePHP Doc Theme'
 copyright = u'%d, CakePHP' % datetime.datetime.now().year
 version = '0.0.8'
