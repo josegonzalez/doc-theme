@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.0.13 (2017-01-02)
+-------------------
+
+Fix
+~~~
+
+- Go back to using github_version for github_url. [Jose Diaz-Gonzalez]
+
 0.0.12 (2017-01-02)
 -------------------
 
