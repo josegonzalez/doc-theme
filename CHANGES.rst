@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.0.10 (2017-01-02)
+-------------------
+
+- Feat: use `current_version` for retrieving the current version. [Jose
+  Diaz-Gonzalez]
+
 0.0.9 (2017-01-02)
 ------------------
 
