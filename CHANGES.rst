@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.0.15 (2017-01-02)
+-------------------
+
+- Feat: add support for the readthedocs api in autocomplete search.
+  [Jose Diaz-Gonzalez]
+
 0.0.14 (2017-01-02)
 -------------------
 
