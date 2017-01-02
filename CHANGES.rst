@@ -1,6 +1,17 @@
 Changelog
 =========
 
+0.0.11 (2017-01-02)
+-------------------
+
+Fix
+~~~
+
+- Only show sidebar links when viewing from readthedocs.io. [Jose Diaz-
+  Gonzalez]
+
+- Switch to correct variables for github doc link. [Jose Diaz-Gonzalez]
+
 0.0.10 (2017-01-02)
 -------------------
 
