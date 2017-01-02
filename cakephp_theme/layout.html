@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 {%- block content %}
 <div class="container page-container">
 
-  {%- if pagename != 'search' -%}
+  {%- if pagename != 'search' and READTHEDOCS -%}
   <div id="improve-slideout">
     <i class="fa fa-pencil icon-improve"></i>
     <a href="https://github.com/{{ github_user }}/{{ github_repo }}/edit/{{ github_version }}{{ conf_py_path }}{{ pagename }}.rst" target="_blank">
