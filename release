@@ -119,6 +119,7 @@ gitchangelog |sed "4s/.*/$version_header/"|sed "5s/.*/$dashes/" > $TMPFILE && mv
 echo -e "${YELLOW}--->${COLOR_OFF} Adding changed files to git"
 git add CHANGES.rst README.rst ${INIT_PACKAGE_NAME}/__init__.py
 if [ -f docs/conf.py ]; then git add docs/conf.py; fi
+if [ -f docs/requirements.txt ]; then git add docs/requirements.txt; fi
 
 echo -e "${YELLOW}--->${COLOR_OFF} Creating release"
 git commit -q -m "Release version $next_version"
