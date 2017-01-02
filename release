@@ -105,6 +105,12 @@ if [ -f docs/conf.py ]; then
     sed "s/$find_this/$replace_with/" docs/conf.py > $TMPFILE && mv $TMPFILE docs/conf.py
 fi
 
+if [ -f docs/requirements.txt ]; then
+    find_this="${PACKAGE_NAME}==$current_version"
+    replace_with="${PACKAGE_NAME}==$next_version"
+    sed "s/$find_this/$replace_with/" docs/requirements.txt > $TMPFILE && mv $TMPFILE docs/requirements.txt
+fi
+
 echo -e "${YELLOW}--->${COLOR_OFF} Updating CHANGES.rst for new release"
 version_header="$next_version ($(date +%F))"
 set +e; dashes=$(yes '-'|head -n ${#version_header}|tr -d '\n') ; set -e
