@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.0.7 (2017-01-02)
+------------------
+
+Fix
+~~~
+
+- Use correct documentclass. [Jose Diaz-Gonzalez]
+
 0.0.6 (2017-01-02)
 ------------------
 
