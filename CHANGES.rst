@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.0.17 (2017-01-02)
+-------------------
+
+- Docs: use a width of 100% when displaying autocomplete results. [Jose
+  Diaz-Gonzalez]
+
 0.0.16 (2017-01-02)
 -------------------
 
