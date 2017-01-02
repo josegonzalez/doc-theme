@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.0.12 (2017-01-02)
+-------------------
+
+Fix
+~~~
+
+- Use meta.github_url for the edit link. [Jose Diaz-Gonzalez]
+
 0.0.11 (2017-01-02)
 -------------------
 
