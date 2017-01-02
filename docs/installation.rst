@@ -31,6 +31,7 @@ Setup
 
         html_theme_path = [cakephp_theme.get_path()]
         html_theme = 'cakephp_theme'
+        extensions = ['cakephp_theme']
 
 
 * Add an explicit ``html_context`` setting so the theme's

@@ -58,7 +58,7 @@ branch = 'master'
 extensions = [
     'sphinx.ext.todo',
     'sphinxcontrib.phpdomain',
-    '_config.cakephpbranch',
+    'cakephp_theme',
 ]
 
 templates_path = ['_templates']
