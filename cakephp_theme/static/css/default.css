@@ -230,7 +230,7 @@ table.internal-toc {
 
 /* Inline search results */
 .tt-menu {
-    width: 150%;
+    width: 100%;
     position: absolute;
     background: #fff;
     z-index: 10;
