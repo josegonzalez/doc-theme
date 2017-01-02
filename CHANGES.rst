@@ -1,6 +1,16 @@
 Changelog
 =========
 
+0.0.6 (2017-01-02)
+------------------
+
+Fix
+~~~
+
+- Add requirements.txt to release. [Jose Diaz-Gonzalez]
+
+- Set correct doc version. [Jose Diaz-Gonzalez]
+
 0.0.5 (2017-01-02)
 ------------------
 
