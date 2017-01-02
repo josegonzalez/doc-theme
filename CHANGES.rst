@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.0.4 (2017-01-02)
+------------------
+
+Fix
+~~~
+
+- Reference correct texinfo file. [Jose Diaz-Gonzalez]
+
 0.0.3 (2017-01-02)
 ------------------
 
