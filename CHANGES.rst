@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.0.9 (2017-01-02)
+------------------
+
+Fix
+~~~
+
+- Use correct maintainer and project values. [Jose Diaz-Gonzalez]
+
 0.0.8 (2017-01-02)
 ------------------
 
