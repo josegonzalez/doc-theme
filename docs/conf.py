@@ -29,7 +29,7 @@ html_context = {
 htmlhelp_basename = 'cakephp-theme'
 latex_documents = [
     ('index', 'cakephp-theme.tex', u'cakephp-theme',
-     u'CakePHP', 'cakephp-theme'),
+     u'CakePHP', 'manual'),
 ]
 man_pages = [
     ('index', 'cakephp-theme', u'CakePHP Doc Theme Documentation',
