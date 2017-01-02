@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.3 (2017-01-02)
+------------------
+
+- Docs: remove extra import. [Jose Diaz-Gonzalez]
+
 0.0.2 (2017-01-02)
 ------------------
 
